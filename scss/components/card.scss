@@ -1,0 +1,62 @@
+.card {
+	padding-top: 127px;
+	&-tittle {
+		font-family: 'Lato';
+		font-size: 44px;
+		font-weight: 700;
+		line-height: 54px;
+		text-align: center;
+
+	}
+	&-desc {
+		font-size: 22px;
+		font-weight: 400;
+		line-height: 34px;
+		text-align: center;
+		padding: 40px 0 74px;
+	}
+	&-holder {
+		position: relative;
+	}
+	&-hover {
+		position: absolute;
+		left:0;
+		bottom:5px;
+		right:0;
+		top:0;
+		background-color: #09b69b;
+		opacity: 0.8;
+		display: none;
+		}
+	&-holder:hover .card-hover {
+		display: block;
+	}
+
+	&-center {
+		position: absolute;
+		top: 50%;
+		left: 48%;
+	}
+	&-info {
+		background-color: #fff;
+		padding: 30px 0 ;
+		margin-top: -5px;
+	}
+	&-name {
+		text-align: center;
+		font-family: 'Lato';
+		font-size: 20px;
+		font-weight: 700;
+		line-height: 26px;
+	}
+	&-name:hover {
+		color: #2bc7ac;
+	}
+	&-span {
+		text-align: center;
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 22px;
+	}
+
+}

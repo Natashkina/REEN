@@ -41,19 +41,24 @@
 			bottom: 0;
 			z-index: -1;
 			background-color: inherit;
-			opacity: 0.5;
+			opacity: 0.9;
 		}
+
 	}
 }
-
 	.bg {
 		&-dark {
-			background-color: #f2f5f7;
+			background-color: #3a454d;
 			color: #fff;
 		}
 		&-darken {
 			background-color: #1d2126;
 		}
-
-	}
+		&-primary {
+			border-radius: 0;
+			background-color: #f2f5f7;
+		}
+		&-light {
+			background-color: #eef1ec;
+		}
 }

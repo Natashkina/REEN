@@ -7,10 +7,13 @@
 		text-align: center;
 	}
 	&-desc {
-		padding: 40px 218px;
+		padding: 40px 0;
 		text-align: center;
+		max-width: 747px;
+		margin: 0 auto;
 	}
 	&-button {
+		text-transform: uppercase;
 		text-align: center;
 	}
 }

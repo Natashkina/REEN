@@ -475,6 +475,81 @@ h6, .h6 {
   }
 }
 
+.block {
+  padding: 20px 0;
+  background-size: cover;
+  background-position: 50% 50%;
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+
+.block-header {
+  display: table-header-group;
+  height: 1%;
+}
+
+.block-content {
+  display: table-row-group;
+}
+
+.block-footer {
+  display: table-footer-group;
+  height: 1%;
+}
+
+.block-inner {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.block-collapse {
+  padding: 0;
+}
+
+.block-fill-height {
+  height: 100vh;
+}
+
+.block-inverse {
+  color: #fff;
+}
+
+.block-overlay {
+  position: relative;
+  z-index: 1;
+}
+
+.block-overlay:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  background-color: inherit;
+  opacity: 0.9;
+}
+
+.bg-dark {
+  background-color: #3a454d;
+  color: #fff;
+}
+
+.bg-darken {
+  background-color: #1d2126;
+}
+
+.bg-primary {
+  border-radius: 0;
+  background-color: #f2f5f7;
+}
+
+.bg-light {
+  background-color: #eef1ec;
+}
+
 .block-header {
   min-height: 370px;
 }
@@ -489,11 +564,12 @@ h6, .h6 {
 }
 
 .block-desc {
-  font-family: "Source Sans Pro", sans-serif;
   font-size: 22px;
   font-weight: 400;
   line-height: 34px;
-  padding: 37px 185px 0;
+  padding: 37px 0 75px;
+  max-width: 785px;
+  margin: 0 auto;
   text-align: center;
 }
 
@@ -505,7 +581,6 @@ h6, .h6 {
 }
 
 .features-desc {
-  font-family: "Source Sans Pro", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 25px;
@@ -526,12 +601,85 @@ h6, .h6 {
 }
 
 .info-desc {
-  padding: 40px 218px;
+  padding: 40px 0;
   text-align: center;
+  max-width: 747px;
+  margin: 0 auto;
 }
 
 .info-button {
+  text-transform: uppercase;
   text-align: center;
+}
+
+.card {
+  padding-top: 127px;
+}
+
+.card-tittle {
+  font-family: 'Lato';
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 54px;
+  text-align: center;
+}
+
+.card-desc {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 34px;
+  text-align: center;
+  padding: 40px 0 74px;
+}
+
+.card-holder {
+  position: relative;
+}
+
+.card-hover {
+  position: absolute;
+  left: 0;
+  bottom: 5px;
+  right: 0;
+  top: 0;
+  background-color: #09b69b;
+  opacity: 0.8;
+  display: none;
+}
+
+.card-holder:hover .card-hover {
+  display: block;
+}
+
+.card-center {
+  position: absolute;
+  top: 50%;
+  left: 48%;
+}
+
+.card-info {
+  background-color: #fff;
+  padding: 30px 0;
+  margin-top: -5px;
+}
+
+.card-name {
+  text-align: center;
+  font-family: 'Lato';
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+}
+
+.card-name:hover {
+  color: #2bc7ac;
+}
+
+.card-span {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
 }
 
 /*# sourceMappingURL=all.css.map */
