@@ -1,0 +1,42 @@
+.block {
+	&-header {
+		min-height: 370px;
+	}
+	&-tittle {
+		padding-top: 121px;
+		font-family: 'Lato';
+		font-size: 44px;
+		font-weight: 700;
+		line-height: 54px;
+		text-align: center;
+	}
+	&-desc {
+		font-family: $font-family-base;
+		font-size: 22px;
+		font-weight: 400;
+		line-height: 34px;
+		padding: 37px 185px 0;
+		text-align: center;
+	}
+}
+.features {
+
+	&-tittle {
+		font-family: 'Lato';
+		font-size: 26px;
+		font-weight: 700;
+		line-height: 34px;
+	}
+	&-desc {
+		font-family: $font-family-base;
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 25px;
+		}
+	&-icon {
+		float: left;
+		padding-right: 30px;
+		min-height: 300px;	
+	}
+
+}
