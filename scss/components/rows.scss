@@ -1,4 +1,4 @@
-.row {
+.rows {
 	padding-top: 70px;
 	&-tittle {
 		text-transform: uppercase;
@@ -60,14 +60,14 @@ button {
 span.icons {
 	padding: 0;
 	}
-.row-name {
+.rows-name {
 		color: #758494;
 		font-family:$font-family-base;
 		font-size: 14px;
 		font-weight: 400;
 		padding-left: 10px;
 }
-.row-name:hover{
+.rows-name:hover{
 		color: #0c9a88;
 		}
 .active {
@@ -78,4 +78,7 @@ input[type="text"] {
 	background: none;
     border: none;
     color: #fff;
+}
+.pt-20 {
+	padding-top: 20px;
 }
