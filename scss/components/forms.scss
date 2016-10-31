@@ -55,6 +55,8 @@ $form-label-margin-bottom: 4px !default;
 		@include placeholder(#fff)
 	}
 	&-label {
+		background: none;
+		border: none;
 		display: block;
 		color: $form-label-color;
 		font-size: $form-label-font-size;

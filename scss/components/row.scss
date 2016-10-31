@@ -1,0 +1,81 @@
+.row {
+	padding-top: 70px;
+	&-tittle {
+		text-transform: uppercase;
+		font-family: 'Lato';
+		font-size: 16px;
+		font-weight: 700;
+		padding-bottom: 24px;
+	}
+	&-logo {
+		padding: 0 0 27px;
+	}
+	&-desc {
+		color: #a3b1bf;
+		font-size: 14px;
+		font-weight: 400;
+	}
+	&-link {
+		color: #00bc9c;
+		font-size: 15px;
+		font-weight: 700;
+		font-family: $font-family-base;
+		padding-top: 18px;
+	}
+	span {
+		padding-left: 10px;
+
+}
+	&-form {
+		margin-top: 20px;
+		position: relative;
+		background: #586674;
+		border-radius: 2px;
+	}
+	&-button {
+		float: right;
+}
+	&-text {
+	
+	}
+
+}
+
+
+button {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	border: none;
+	text-transform: uppercase;
+
+}
+.sub {
+	background: #17a78b;
+    font-size: 13px;
+    padding: 8px 12px;
+    font-family:$font-family-base;
+	font-weight: 700;
+}
+span.icons {
+	padding: 0;
+	}
+.row-name {
+		color: #758494;
+		font-family:$font-family-base;
+		font-size: 14px;
+		font-weight: 400;
+		padding-left: 10px;
+}
+.row-name:hover{
+		color: #0c9a88;
+		}
+.active {
+	color: #0c9a88;
+}
+input[type="text"] {
+	padding: 14px;
+	background: none;
+    border: none;
+    color: #fff;
+}
