@@ -1,8 +1,9 @@
-
-$(".owl-carousel").owlCarousel({ 
-	nav: true,
-	items:4,
+$(document).ready(function(){ 
+$('.owl-carousel').owlCarousel({ 
+items:4, 
+lazyLoad:true, 
+loop:true, 
+margin:10, 
+nav: true 
+}); 
 });
-
-
-
