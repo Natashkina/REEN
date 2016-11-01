@@ -53,17 +53,17 @@
 }
 
    input[type="submit"] {
-    width: 20px; /* Ширина кнопки */
-    height: 20px; /* Высота кнопки */
-    border: none; /* Убираем рамку */
+    width: 20px; 
+    height: 20px; 
+    border: none;
 	text-indent: -9999px;
     background: url(../images/search.png) no-repeat 50%; /* Параметры фона */
    }
    input[type="search"] {
 
-    border: 1px solid #70859b; 
-    outline: none; /* Убираем свечение в Chrome и Safari */
-    -webkit-appearance: none; /* Убираем рамку в Chrome и Safari */
+    border: none; 
+    outline: none; 
+    -webkit-appearance: none; 
 
 }
 
