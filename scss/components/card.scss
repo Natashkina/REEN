@@ -64,3 +64,22 @@
 	}
 
 }
+.owl-carousel {
+	padding: 80px 0;
+	.owl-item {
+	padding: 0 15px;
+}
+	.owl-tittle {
+	font-family: Lato;
+	font-size: 16px;
+	font-weight: 700;
+	color: #fff;
+}
+	.owl-desc {
+	font-size: 14px;
+	font-weight: 400;
+	color: #fff;
+	text-align: center;
+}
+}
+
