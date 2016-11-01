@@ -45,7 +45,6 @@
 	&-icon {
 		float: right;
 	}
-
 }
 .navbar-nav:after {
 		width: 100%;	
@@ -66,4 +65,26 @@
     outline: none; /* Убираем свечение в Chrome и Safari */
     -webkit-appearance: none; /* Убираем рамку в Chrome и Safari */
 
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    left: -731px;
+    right: -340px;
+ 
+    background-color: #f9f9f9;
+    z-index: 1;
+}
+.ddmenu {
+	width: 100%;
+	height: auto;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
 }

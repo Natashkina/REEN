@@ -797,6 +797,29 @@ input[type="search"] {
   /* Убираем рамку в Chrome и Safari */
 }
 
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  left: -731px;
+  right: -340px;
+  background-color: #f9f9f9;
+  z-index: 1;
+}
+
+.ddmenu {
+  width: 100%;
+  height: auto;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
 .rows {
   padding-top: 70px;
 }
