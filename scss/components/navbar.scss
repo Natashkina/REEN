@@ -10,15 +10,13 @@
 		}
 	}
 	&-nav {
-	
 		list-style: none;
-		padding: 10px 0 0;
 		margin: 0;
-	
 		font-size: 0;
 	    text-align: justify;
 	}
 	&-item {
+		line-height: 45px;
 		display: inline-block;
 		vertical-align: top;
 	}
@@ -73,11 +71,13 @@
 }
 
 .dropdown-content {
+	line-height: 22px;
     display: none;
     position: absolute;
-    left: -731px;
+    left: -733px;
     right: -340px;
- 
+ 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+ 	border-radius: 3px;
     background-color: #f9f9f9;
     z-index: 1;
 }
@@ -87,4 +87,16 @@
 }
 .dropdown:hover .dropdown-content {
     display: block;
+}
+.m-40 {
+	margin: 40px;
+}
+.pb-20 {
+	padding-bottom: 24px;
+}
+.read {
+	font-family: $font-family-base;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
 }
