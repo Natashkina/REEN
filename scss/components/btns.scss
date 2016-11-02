@@ -49,4 +49,11 @@ $btn-color-hover: #333 !default;
         color: $btn-color-hover;
         
     }
+    &-lg {
+   	padding: 20px 65px;
+		font-family: $font-family-base;
+		font-size: 18px;
+		font-weight: 700;
+		text-transform: uppercase;
+    }
 }

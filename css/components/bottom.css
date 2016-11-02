@@ -1,0 +1,22 @@
+.bottom-text {
+  display: inline-block;
+}
+
+.bottom-nav {
+  margin: 0;
+  padding: 0;
+  float: right;
+}
+
+.bottom-items {
+  list-style: none;
+  display: inline-block;
+}
+
+.pd-35 {
+  padding: 35px 0;
+}
+
+.bottom-nav {
+  float: right;
+}
