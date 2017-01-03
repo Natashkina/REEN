@@ -22,23 +22,23 @@
 	}
 }
 .features {
+	padding-bottom: (150 / 1170 * 100%);
 
 	&-tittle {
 		font-family: 'Lato';
 		font-size: 26px;
 		font-weight: 700;
 		line-height: 34px;
+		padding-left: 90px;
 	}
 	&-desc {
-
+		padding-left: 90px;
 		font-size: 16px;
 		font-weight: 400;
 		line-height: 25px;
 		}
 	&-icon {
 		float: left;
-		padding-right: 30px;
-		min-height: 300px;	
 	}
 
 }
