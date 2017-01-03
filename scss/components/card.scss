@@ -21,7 +21,7 @@
 	&-hover {
 		position: absolute;
 		left:0;
-		bottom:5px;
+		bottom:0;
 		right:0;
 		top:0;
 		background-color: #09b69b;
@@ -44,7 +44,7 @@
 	&-info {
 		background-color: #fff;
 		padding: 30px 0 ;
-		margin-top: -5px;
+		
 	}
 	&-name {
 		text-align: center;
@@ -82,4 +82,3 @@
 	text-align: center;
 }
 }
-
