@@ -14,6 +14,7 @@ body {
 	margin: 0;
 }
 img {
+	vertical-align: middle;
 	max-width: 100%;
 	height: auto;
 }
@@ -42,7 +43,7 @@ img {
 	font-weight: 900;
 	line-height: 88px;
 	text-transform: uppercase;
-	padding-top: 220px;
+	padding-top: (220 / 1170 * 100%);
 }
 .brand-desc {
 	color: #a3b1bf;
@@ -55,9 +56,9 @@ img {
 	padding: 32px 0 63px;
 }
 .brand-link {
-	    padding-right: 30px;
+	padding-right: 30px;
 	text-align: center;
-	padding-bottom: 270px;
+	padding-bottom: (270 / 1170 * 100%);
 }
 .owl-theme .owl-controls {
     position: absolute;
