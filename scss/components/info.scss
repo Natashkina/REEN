@@ -1,5 +1,6 @@
 .info {
-	padding: 130px 0;
+		padding-top: (130 / 1170 * 100%);
+		padding-bottom: (130 / 1170 * 100%);
 	&-title {
 		font-family: 'Lato';
 		font-size: 44px;
@@ -12,6 +13,7 @@
 		text-align: center;
 		max-width: 747px;
 		margin: 0 auto;
+		font-size: 22px;
 	}
 	&-button {
 		text-transform: uppercase;
