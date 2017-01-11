@@ -4,6 +4,8 @@ items:1,
 lazyLoad:true, 
 loop:true, 
 margin:10, 
+autoPlay: true,
+responsive: false,
 }); 
 });
 
@@ -13,6 +15,7 @@ items:4,
 lazyLoad:true, 
 loop:true, 
 margin:10, 
+autoPlay: true,
 }); 
 });
  
