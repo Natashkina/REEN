@@ -1,14 +1,6 @@
 .card {
-	padding-top: 127px;
-	&-title {
-		font-family: 'Lato';
-		font-size: 44px;
-		font-weight: 700;
-		line-height: 54px;
-		text-align: center;
-
-	}
-	&-desc {
+	padding-top: (127 / 1170 * 100%);
+		&-desc {
 		font-size: 22px;
 		font-weight: 400;
 		line-height: 34px;
