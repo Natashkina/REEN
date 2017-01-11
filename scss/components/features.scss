@@ -3,7 +3,6 @@
 		min-height: 370px;
 	}
 	&-title {
-		padding-top: 121px;
 		font-family: 'Lato';
 		font-size: 44px;
 		font-weight: 700;
@@ -11,7 +10,6 @@
 		text-align: center;
 	}
 	&-desc {
-	
 		font-size: 22px;
 		font-weight: 400;
 		line-height: 34px;
@@ -22,6 +20,7 @@
 	}
 }
 .features {
+	padding-top: (120 / 1170 * 100%);
 	padding-bottom: (150 / 1170 * 100%);
 
 	&-title {
@@ -33,6 +32,7 @@
 	}
 	&-desc {
 		padding-left: 90px;
+		padding-bottom: 10px;
 		font-size: 16px;
 		font-weight: 400;
 		line-height: 25px;
