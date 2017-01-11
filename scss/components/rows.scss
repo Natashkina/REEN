@@ -1,5 +1,5 @@
 .rows {
-	padding-top: 70px;
+		padding-top: (70 / 1170 * 100%);
 	&-title {
 		text-transform: uppercase;
 		font-family: 'Lato';
@@ -90,4 +90,4 @@ input[type="text"] {
 }
 .pb-73 {
 	padding-bottom: 73px;
-}
+ }
