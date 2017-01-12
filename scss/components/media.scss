@@ -1,3 +1,22 @@
+@media all and (max-width: 768px) {
+ .navbar {
+ &-logo {
+    padding-right: 0;
+    float: none;
+    display: inline-block;
+ }
+ &-item {
+    text-align: center;
+    display: block;
+ }
+ &-nav {
+ 	display: none;
+ }
+ &-toggler {
+ 	display: block;
+ }
+}
+}
 @media all and (max-width: 480px) {
  .brand-desc {
  	font-size: 18px;
@@ -14,5 +33,10 @@
 .card-desc {
 	font-size: 16px;
 }
+}
 
+@media all and (max-width: 320px) {
+.card-name {
+    font-size: 15px;
+}
 }
