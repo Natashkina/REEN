@@ -50,11 +50,13 @@
 		width: 40px;
 		height: 40px;
 		float: right;
-		padding: 10px;
 		background: $btn-bg;
 		border-radius: 3px;
 		padding: 13px 8px;
 	}
+}
+input[type=checkbox] {
+	display: none;
 }
 .icon-bar {
 	height: 2px;
