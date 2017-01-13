@@ -15,6 +15,18 @@
  &-toggler {
  	display: block;
  }
+ &-link:hover {
+    border-right: 1px solid transparent;
+    border-left: 1px solid transparent;
+}
+}
+input[type=checkbox]:checked ~ .to-be-changed {
+    display: block;   
+}
+input[type=checkbox] {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
 }
 }
 @media all and (max-width: 480px) {
@@ -33,10 +45,14 @@
 .card-desc {
 	font-size: 16px;
 }
+
 }
 
 @media all and (max-width: 320px) {
 .card-name {
     font-size: 15px;
+}
+.owl-carousel {
+    padding: 40px 0;
 }
 }
