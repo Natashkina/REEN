@@ -59,6 +59,13 @@
 height: 15px;
 background-color: #00bc9c;
 }
+@media all and (max-width: 480px) {
+.owl-theme .owl-controls .owl-page{
+	display: inline-block;
+	zoom: 0.7;
+	*display: inline;/*IE7 life-saver */
+}
+}
 
 /* If PaginationNumbers is true */
 
