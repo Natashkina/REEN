@@ -50,6 +50,15 @@ input[type=checkbox] {
 }
 }
 
+@media all and (max-width: 360px) {
+.m-40 {
+    margin: 20px;
+}
+.rows-title {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+}
 @media all and (max-width: 320px) {
 .card-name {
     font-size: 15px;
